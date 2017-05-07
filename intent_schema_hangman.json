@@ -1,0 +1,39 @@
+{
+  "intents": [
+    { "intent": "NewGame" },
+    { "intent": "RepeatCategory" },
+    { "intent": "GuessLetter", "slots": [
+      { "name": "Letter", "type": "LETTER" }
+    ]},
+    { "intent": "GuessWord", "slots": [
+      { "name": "Word", "type": "WORD" }
+    ]},
+    { "intent": "EndGame" }
+  ]
+}
+
+LETTERS 
+q | w | e | r | t | y | u | i | o | p | a | s | d | f | g | h | j | k | l | z | x | c | v | b | n | m	
+
+WORDS
+
+red | green | blue | boat | cat | dog | snake | cake | pizza | spaghetti | football | surfing | rugby	
+
+
+NewGame Start a new game
+NewGame Is this code ok
+NewGame I want to play hangman
+NewGame Start new one
+RepeatCategory Repeat category
+RepeatCategory What is the category
+RepeatCategory Can you repeat category
+GuessLetter My letter is {Letter}
+GuessLetter I guess {Letter}
+GuessLetter My guess is {Letter}
+GuessLetter I guess the letter {Letter}
+GuessWord I guess the word {Word}
+GuessWord The word is {Word}
+EndGame Stop the game
+EndGame Please end this game
+EndGame End the game
+EndGame I don't want to play anymore
